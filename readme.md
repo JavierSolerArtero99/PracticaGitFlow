@@ -1,5 +1,10 @@
 # Practica GitFlow
 
+## Introducción:
+Git es un sistema de control de versiones que permite tener un seguimiento exaustivo del trabajo en proyectos de desarrollo además de facilitar en gran medida el trabajo en equipo. 
+
+Git Flow es una metodología basada en el modelo de ramificaciones de Vincent Driessen, que nos facilita el trabajo con nuestros repositorios. La idea principal de este método de trabajo es que se parte de dos ramas, una para desarrollo y la otra de producción. A partir de aqui si queremos implementar una nueva funcionalidad ramificaremos la rama develop para asi no "ensuciar" el trabajo que se está desarrollando, estas ramas se llamarán features. A continuación para hacer testing y la revisión de estas nuevas features se usarán las ramas release que se fusionará con develop y master una vez terminado el testing. Y por último las ramas  para solucionar bugs e issues, estas se llaman hotfix y salen de la rama producción si en esta se halla alguna incurrencia. Una vez solventado el issue, se fusionará con la rama master y la rama develop. 
+
 ## Ejercicio 1:
 ### Primeros pasos del usuario 1:
 Creación del repositorio y estructura inicial del proyecto. 
